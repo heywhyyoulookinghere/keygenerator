@@ -2,7 +2,7 @@ import string
 import random
 
 def generate_key(length):
-  chars = string.ascii_letters + string.digits + string.punctuation
+  chars = string.ascii_letters
   key = ''.join(random.choice(chars) for i in range(length))
 
   return key
