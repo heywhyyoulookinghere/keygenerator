@@ -7,6 +7,6 @@ def generate_key(length):
 
   return key
 
-key = generate_key(16)
+key = generate_key(100)
 
 print(key)
