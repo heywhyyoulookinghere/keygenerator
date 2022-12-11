@@ -9,4 +9,4 @@ def generate_key(length):
 
 key = generate_key(16)
 
-console.log(key)
+print(key)
